@@ -3,16 +3,16 @@ function mayorYMenor (num){
     else console.log(false);
 }
 
-mayorYMenor(2)
-mayorYMenor(7)
-mayorYMenor(20)
+mayorYMenor(2);
+mayorYMenor(7);
+mayorYMenor(20);
 
 function operadorOr(str){
     if(str === "Henry" || str.length<2) console.log(true);
     else console.log(false);
 }
 
-operadorOr("java")
+operadorOr("java");
 
 function negacion(permiso){
     if(!permiso === true) console.log("Tiene permiso");
@@ -26,7 +26,21 @@ function condicionCompleja(num){
     else console.log(false);
 }
 
-condicionCompleja(10)
-condicionCompleja(6)
-condicionCompleja(3)
-condicionCompleja(5)
+condicionCompleja(10);
+condicionCompleja(6);
+condicionCompleja(3);
+condicionCompleja(5);
+
+function boolean(num){
+    if (num === Math.round(num) || num === 0){
+        console.log(true);
+    }
+    else {
+        console.log(false);
+    }
+}
+
+boolean(-45);
+boolean(-1);
+boolean(0);
+boolean(09);
