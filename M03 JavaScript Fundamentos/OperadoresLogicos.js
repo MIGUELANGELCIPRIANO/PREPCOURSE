@@ -1,3 +1,4 @@
+//Operador 'And' (&&);
 function mayorYMenor (num){
     if(num > 5 && num < 10) console.log(true);
     else console.log(false);
@@ -7,6 +8,7 @@ mayorYMenor(2);
 mayorYMenor(7);
 mayorYMenor(20);
 
+//Operador 'Or' (||);
 function operadorOr(str){
     if(str === "Henry" || str.length<2) console.log(true);
     else console.log(false);
@@ -14,6 +16,7 @@ function operadorOr(str){
 
 operadorOr("java");
 
+//Operador 'Not' (!);
 function negacion(permiso){
     if(!permiso === true) console.log("Tiene permiso");
     else console.log("No tiene permiso");
