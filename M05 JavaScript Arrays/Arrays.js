@@ -47,11 +47,11 @@
 
 //Método every();
 //Conocer si todos los elementos del array cumplen con una condición;
-//var numeros = [10, 9, 8, 6, 5];
-//var cumpleCondicion = numeros.every(num =>{
-//    return (num > 5);
-//});
-//console.log(cumpleCondicion);
+var numeros = [10, 9, 8, 6, 5];
+var cumpleCondicion = numeros.every(num =>{
+    return (num > 5);
+});
+console.log(cumpleCondicion);
 
 //var palabra = 'Henri';
 
