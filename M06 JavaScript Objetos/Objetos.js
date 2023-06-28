@@ -91,15 +91,3 @@
 // };
 
 // mascota.info();
-
-function find_max(nums) {
-    var max_num = Number.NEGATIVE_INFINITY; // smaller than all other numbers
-    for (var num of nums) {
-    if (num > max_num) {
-        max_num += num;
-        }
-    }
-return max_num;
-}
-
-function find_max[1, 2, 3, 4, 5, 6, 7, 8];
