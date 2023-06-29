@@ -5,10 +5,10 @@
 // Paso 3. Usa el método join() para unir todos los elementos del arreglo en una cadena;
 // Paso 4. Devolver la cadena invertida;
 
-function invertirCadena(palabra){
-    console.log(palabra.split('').reverse().join(''));
-}
-invertirCadena('palabra'); 
+// function invertirCadena(palabra){
+//     console.log(palabra.split('').reverse().join(''));
+// }
+// invertirCadena('palabra'); 
 
 //INVERTIR CADENA BUCLE FOR DECREMENTO;
 
@@ -30,17 +30,21 @@ invertirCadena('palabra');
 
 // INVERTIR CADENA MÉTODO SUBSTR() + MÉTODO CHARAT();
 
-// MÉTODO SUBSTR(). Devuelve los caracteres de una cadena que comienza en la ubicación especificada a través del número especificado de carácteres;
-//      'hola'.substr(1); 'ola'
+// MÉTODO SUBSTR(). Devuelve los carácteres de una cadena que comienza en la ubicación especificada a través del número especificado de carácteres;
+//                  No está estrictamente obsoleto, pero no se recomienda su uso ya que puede dar resultados inconsistentes;
+//                  En su lugar está la opción SLICE();
+//      'hola'.substr(1) => 'ola'
+//      'hola'.slice(1) => 'ola';
 // MÉTODO CHARAT(). Devuelve el carácter especificado de una cadena;
-//      'hola'.charAt(0); 'h'
+//      'hola'.charAt(0) => 'h';
 
 // function invertirCadena(palabra){
 //   if (palabra === ('')){
-//     console.log('');
+//     return('');
 //   }
 //   else{
-//     console.log(invertirCadena((palabra.substr(1)))+palabra.charAt(0));
+//     return(invertirCadena((palabra.substr(1)))+palabra.charAt(0));
 //   }
 // }
-// invertirCadena('hola');
+// var string = 'hola';
+// console.log(invertirCadena(string));

@@ -14,18 +14,18 @@
 //  var nuevoArreglo = arreglo.mayorQueTres();
 //  console.log(nuevoArreglo);
 
-class LatinoAmerica {
-	constructor() {
-		this.paises = [];
-	};
-};
+// class LatinoAmerica {
+// 	constructor() {
+// 		this.paises = [];
+// 	}; 
+// };
  
-LatinoAmerica.prototype.agregarPais = function (pais) {
-   	this.paises.push(pais);
-};
+// LatinoAmerica.prototype.agregarPais = function (pais) {
+//    	this.paises.push(pais);
+// };
 
-var continente = new LatinoAmerica();
-continente.agregarPais('México');
+// var continente = new LatinoAmerica();
+// continente.agregarPais('México');
 // continente.agregarPais('Argentina');
 // continente.agregarPais('Brasil');
-console.log(continente.paises);
+// console.log(continente.paises);

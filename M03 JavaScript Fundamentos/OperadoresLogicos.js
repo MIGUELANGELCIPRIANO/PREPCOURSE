@@ -46,4 +46,4 @@ function boolean(num){
 boolean(-45);
 boolean(-1);
 boolean(0);
-boolean(09);
+boolean(9);
