@@ -23,10 +23,10 @@
 
 //CREAR Y BORRAR;
 
-// var autos = {};
-// autos.marcas = ['Ford', 'Audi', 'Ferrari'];
-// delete autos.marcas;
-// console.log(autos);
+var autos = {};
+autos.marcas = ['Ford', 'Audi', 'Ferrari'];
+delete autos.marcas;
+console.log(autos);
 
 // FUNCION DENTRO DE OBJETO;
 
@@ -58,19 +58,22 @@
 
 //MÉTODOS DE OBJETOS;
 
-// HAS OWN PROPERTY;
+// HAS OWN PROPERTY(). Verifica si existe la propiedad asignada dentro del objeto devolviendo un valor booleano;
 // var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
 // var tienePropiedad = libro.hasOwnProperty('nombre');
 
 // console.log(tienePropiedad);
 
-// KEYS
+// KEYS().Devuelve las propiedades de un objeto dentro de un arreglo;
+// VALUES(). Devuelve los valores correspondientes a las propiedades de un objeto dentro de un arreglo;
 // var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
 // var todasLasPropiedades = Object.keys(libro);
+// var todosLosValores = Object.values(libro);
 
 // console.log(todasLasPropiedades);
+// console.log(todosLosValores);
 
-// FOR IN;
+// FOR IN. Bucle que recorre las propiedades de un objeto; 
 
 // var mundo = {continentes: 7, paises: 195, oceanos: 5}; 
 // for (var prop in mundo) {
@@ -78,7 +81,7 @@
 //     console.log('Este es el valor:', mundo[prop]);
 // }
 
-// THIS;
+// THIS. Manipula la función para un alcance más preciso del código;
 
 // var mascota = {
 //     animal: 'Perro',
