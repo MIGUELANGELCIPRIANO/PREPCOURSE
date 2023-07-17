@@ -25,3 +25,20 @@ function esPrimo(num) {
  esPrimo(3);
  esPrimo(4);
  esPrimo(5);
+
+ function esPrimo(num) {
+    for(var i = 2; i < num; i++)
+      if(num % i === 0) return false;
+    return num > 1;
+  }
+  
+  function sumaTodosPrimos(array) {
+    return array.reduce((acumulado, numero) => {
+      if (esPrimo(numero)) {
+        acumulado += numero;
+      }
+      return acumulado
+  },0);
+  }
+  
+  console.log(sumaTodosPrimos([1,5,2,9,3,4,11]));
